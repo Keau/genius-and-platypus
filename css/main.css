@@ -15,7 +15,6 @@ header{
 }
 
 #content-wrap{
-    border: 1px solid black;
     width: 50%;
     margin: auto;
 }
@@ -23,26 +22,19 @@ header{
 #main-nav{
     border: 1px solid black;
     background: rgb(170, 57, 57);
-    text-align: justify;
-}
-
-nav *{
-    display: inline;
+    border-radius: 8px;
 }
 
 nav ul{
-    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    list-style: none;
 }
 
 nav li{
     display: inline-block;
-}
-
-nav span{
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 0;
 }
 
 nav a{
