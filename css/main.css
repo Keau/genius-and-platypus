@@ -1,16 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background: rgb(170, 57, 57);
+    margin: 0;
+    background: white;
+    font-family: Century Gothic;
 }
 
-.content-wrap{
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#content-wrap{
     border: 1px solid black;
-    position: fixed;
-}
-
-nav{
-    position: relative;
     width: 50%;
+    margin: auto;
+}
+
+#main-nav{
     border: 1px solid black;
+    background: rgb(170, 57, 57);
+    text-align: justify;
+}
+
+nav *{
+    display: inline;
 }
 
 nav ul{
@@ -19,22 +36,25 @@ nav ul{
 
 nav li{
     display: inline-block;
-    width: 30%;
-    border: 1px solid black;
+}
+
+nav span{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 0;
 }
 
 nav a{
     text-decoration: none;
     text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    color: black;
 }
 
-section{
-    width: 50%;
+#main-content{
     border: 1px solid black;
     padding: 0px 20px;
     text-align: justify;
-}
-
-p, h1, h2, h3{
-    border: 1px solid black;
 }

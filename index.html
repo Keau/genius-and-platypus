@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <title>Odes to Platypodes</title>
 </head>
 
@@ -12,13 +14,17 @@
         <h1>Odes to Platypodes</h1>
     </header>
     <div id="content-wrap">
-        <nav id="main-nav">
-            <ul>
-                <li><a href="#notre-expertise">Notre Expertise</a></li>
-                <li><a href="#notre-projet">Notre Projet</a></li>
-                <li><a href="#participer">Participer à l'Aventure</a></li>
-            </ul>
-        </nav>
+        <div id="main-nav-position-saver">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#notre-expertise">Notre Expertise</a></li>
+                    <li><a href="#notre-projet">Notre Projet</a></li>
+                    <li><a href="#participer">Participer à l'Aventure</a></li>
+                </ul>
+                <span>
+            </nav>
+        </div>
+        <div id="main-content">
         <section id="notre-expertise">
             <h2>Notre Expertise</h2>
             <h3>Qui sommes-nous?</h3>
@@ -102,6 +108,7 @@
                 intéressé par nos services, merci de passer par ce
                 <a href="#">formulaire</a>.</em></p>
         </section>
+        </div>
     </div>
     <footer></footer>
 </body>
