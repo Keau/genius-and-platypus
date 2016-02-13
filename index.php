@@ -10,19 +10,11 @@
 </head>
 
 <body>
-    <header>    
-        <h1 id="main-title">Genius and Platypus</h1>
-        <nav id="main-nav">
-            <ul>
-                <li><a href="#notre-expertise">Notre Expertise</a></li>
-                <li><a href="#notre-projet">Notre Projet</a></li>
-                <li><a href="#participer">Participer à l'Aventure</a></li>
-            </ul>
-        </nav>
-    </header>    
+    <?php readfile("header.html"); ?>
     <main>
         <section id="notre-expertise">
             <h2>Notre Expertise</h2>
+            <img src="img/freljord-gragas.png" alt="">
             <h3>Qui sommes-nous?</h3>
             <p>Nous sommes deux joueurs et entraîneurs passionnés, dans la vingtaine chacun. Nous avons commencé le jeu en fin de
                 saison 1 et nous nous connaissons depuis la saison 2.<br>
@@ -48,9 +40,9 @@
         </section>
         <section id="notre-projet">
             <h2>Notre Projet</h2>
+            <img src="img/tristana-render.png" alt="">
             <p>Nous proposons un service d’entraînement de qualité à des équipes et joueurs de tout niveau. Nous avons plusieurs
-                objectifs:
-            </p>
+                objectifs:</p>
             <ul>
                 <li>Faire progresser sensiblement nos joueurs;</li>
                 <li>Partager des méthodes et outils novateurs qui bénéficieront à tous;</li>
@@ -63,16 +55,17 @@
             <p><sup>1</sup>Nous travaillerons la meilleure stratégie en réponse à une autre. Nous sommes ouverts à l’utilisation
                 de champions sous-exploités, aux configurations atypiques, aux styles de jeu déroutants, etc. Mais nous ne perdons
                 pas de vue l’objectif du jeu qui est de gagner.</p>
-            <p>Nous avons détaillé ce que l’on attend de vous en retour dans notre <a href="#">charte de conduite</a>.</p>
+            <p>Nous avons détaillé ce que l’on attend de vous en retour dans notre <a href="charte-de-conduite">charte de conduite</a>.</p>
         </section>
         <section id="participer">
             <h2>Participer à l'Aventure</h2>
+            <img src="img/gangplank-tools.png" alt="">
             <h3>Profil recherché</h3>
             <p>Nous recherchons 7 joueurs de niveau Diamant à Challenger. Dans un souci de maintenir une dynamique de groupe, les
                 joueurs devront s’attendre à des rotations plus ou moins fréquentes, en fonction des besoins stratégiques, des
                 performances ou des disponibilités.
                 <br> Compte tenu de <a href="#notre-projet">notre projet</a>, nous exigeons de nos recrues qu’elles respectent la
-                <a href="#">charte de conduite</a>.<br>
+                <a href="charte-de-conduite">charte de conduite</a>.<br>
                 <br></p>
             <h3>Procédure de recrutement</h3>
             <p>La procédure de recrutement s’organise en deux phases. La première étape consiste à répondre au formulaire de présélection.
@@ -80,14 +73,14 @@
                 notre recrutement, nous communiquerons notre décision aux personnes avec lesquelles nous nous sommes entretenus.
             </p>
             <p>La durée de la phase de recrutement est fixée à 14 jours. Ce délai peut être prolongé si nécessaire, auquel cas mention
-                sera faite sur la page d’accueil du site.</p>
-            <p><strong><a href="#">Candidature individuelle</a></strong></p>
+                sera faite sur la page d’accueil de ce site.</p>
+            <p><strong><a href="http://goo.gl/forms/AUnWrQMev5">Candidature individuelle</a></strong></p>
             <p><em>Vous représentez une équipe déjà formée et vous êtes
-                intéressé par nos services, merci de passer par ce
-                <a href="#">formulaire</a>.</em></p>
+                intéressé par nos services, merci de passer par cet
+                <a href="http://goo.gl/forms/5VpPXfS1ya">autre formulaire</a>.</em></p>
         </section>
     </main>
-    <footer></footer>
+    <?php readfile("footer.html"); ?>
 </body>
 
 </html>
